@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", san-serif;
+  box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.logo {
+  color: rgb(214, 31, 31);
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #3e15a7;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px 30px;
+}
+nav ul li a {
+  color: #089b45;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 27px;
+}
+nav ul li a:hover {
+  color: hsl(203, 71%, 43%);
+  transition: 0.4s;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.content a {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  margin: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+h3 {
+  color: rgb(194, 36, 157);
+  font-size: 25px;
+  margin-bottom: 50px;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position:left;
+}
+h4 {
+  color: #b61a4b;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.home-img img {
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    left: 980px;
+    pointer-events: none;
+    max-width: 500px;
+    max-height: 100vh;
+    border-radius: 50%;
+}
+.about {
+  width: 100%;
+  padding-top: 30px 100px;
+  background-color: rgb(2, 219, 100);
+}
+
+.about-text {
+  width: 500px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2 {
+  color: rgb(199, 21, 21);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: rgb(179, 14, 14);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.skill {
+  display: grid;
+  grid-gap: 20px;
+  padding: 50px 500px 100px 500px;
+  text-align: center;
+}
+.container-skill {
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+}
+.container-skill h1 {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.container-skill .skill p {
+  margin-top: 30px;
+  padding: 5px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.containersk {
+  width: 100%;
+  background-color: #d3067d;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(49, 12, 211);
+}
+.texts {
+  display: flex;
+  justify-content: space-between;
+}
+.texts span {
+  color: #116eda;
+}
+.skillcontent {
+  padding: 10px;
+  text-align: justify;
+  margin-right: 10px;
+}
+.skillcontent p {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.container-mission {
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+}
+.container-mission h1 {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.mission {
+  display:-ms-grid ;
+  grid-gap: 20px;
+  padding: 50px 500px 100px 500px;
+  text-align: center;
+}
+.missioncontent p {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact-me h2 {
+  font-size: 75px;
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+}
+.card {
+  background-color: rgb(12, 111, 187);
+  width: 30rem;
+  padding: 25px;
+  margin: 15px;
+  box-shadow: 0 10px 5px lightblue;
+  border-radius: 15px;
+  transition: 0.7s ease;
+}
+.icon {
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(24, 103, 250);
+  margin: 10px;
+}
+.info {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+}
+.info h3 {
+  color: blueviolet;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.contents {
+  text-align: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: 25%;
+  display: flex;
+}
+footer {
+  background-color: #191919;
+  padding: 10px;
+  text-align: center;
+  color: rgb(17, 110, 218);
+  width: 100%;
+}
+.footer .share {
+  padding: 16px 0;
+}
+.footer .share a {
+  color: hsl(0, 96%, 40%);
+  font-size: 32px;
+  margin: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px 0;
+}
+.footer .links a {
+  color: rgb(207, 30, 207);
+  font-size: 22px;
+  padding: 11px 32px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+.footer .links a:hover {
+  background-color: rgb(12, 220, 235);
+  color: rgb(0, 0, 0);
+}
+
+.texts span {
+  color: #000;
+}
+
+.skilldiv {
+  margin-top: 20px;
+}
+.html {
+  width: 70%;
+  background-color: #f9004d;
+}
+.css {
+  width: 60%;
+  background-color: #f9004d;
+}
+.js {
+  width: 40%;
+  background-color: #f9004d;
+}
+.php {
+  width: 70%;
+  background-color: #f9004d;
+}
+.mysql {
+  width: 60%;
+  background-color: #f9004d;
+}
+
+
+.scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #f9004d;
+  color: #1b0ab1;
+  border-radius: 5px;
+  border-radius: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.scrollTop:hover {
+  background-color: #db18bb;
+  color: black;
+}
+* {
+  scroll-behavior: smooth;
+}
